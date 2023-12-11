@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    svg {
+      border: 2px solid red;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <img src="http://localhost:8000/california-topo.jpg" width="600" style="position:fixed;z-index:-1;left:50px;" /> -->
+  <div>
+    <svg id="justFires" width="800" height="800">
+      <g class="californiaMap"></g>
+      <g class="positiveExamples"></g>
+      <g class="negativeExamples"></g>
+
+    </svg>
+  </div>
+  <div>
+    <svg id="justStations" width="800" height="800">
+      <g class="californiaMap"></g>
+      <g class="ghcnStations"></g>
+      <g class="lcdStations"></g>
+    </svg>
+  </div>
+  <div>
+    <svg class="firesAndStations" width="800" height="800">
+      <g class="californiaMap"></g>
+      <g class="negativeExamples"></g>
+      <g class="positiveExamples"></g>
+      <g class="ghcnStations"></g>
+      <g class="lcdStations"></g>
+    </svg>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
