@@ -2,6 +2,8 @@
 
 This folder contains all of the raw data files used in generating the final dataset.
 
+NOTE: DUE TO SPACE CONSTRAINTS ON GITHUB, WE ONLY INCLUDE ONE RAW DATA FILE IN EACH RESPECTIVE FOLDER.
+
 ## File Definitions:
 
 - **californiaFromNaturalEarth.json**: California JSON file defining a polygon that sets the boundaries within the entire state, used in tasks such as negative fire generation.
